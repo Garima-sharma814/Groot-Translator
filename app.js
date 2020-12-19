@@ -13,6 +13,7 @@ function translation(text) {
 function errorhandling(error) {
 	console.log("An error occured", error);
 	alert("Something went Wrong..! Please try after sometime.");
+}
 
 function clickhandler() {
     var TxtInput = InputText.value;
