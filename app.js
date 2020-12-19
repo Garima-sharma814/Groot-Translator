@@ -9,7 +9,10 @@ var serverUrl = "https://api.funtranslations.com/translate/groot.json"
 function translation(text) {
     return serverUrl + "?" + "text=" + text
 }
-
+function errorHandling(error) {
+    console.log("An error occured", error);
+    alert("Something went Wrong..! Please try after sometime.");
+}
 function clickHandler() {
     var TxtInput = InputText.value;
     fetch(translation(TxtInput))
@@ -18,6 +21,7 @@ function clickHandler() {
             var translatedText = json.contents.translated;
             OutputText.innerText = translatedText;
         })
+        .catch(errorHandling);
 }
 
 translatebtn.addEventListener("click", clickHandler);
