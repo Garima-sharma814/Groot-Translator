@@ -15,7 +15,7 @@ function errorHandling(error) {
 	alert("Something went Wrong..! Please try after sometime.");
 }
 
-function clickhandler() {
+function clicHandler() {
     var TxtInput = InputText.value;
     fetch(translation(TxtInput))
         .then((response) => response.json())
