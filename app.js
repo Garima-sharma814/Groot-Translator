@@ -10,7 +10,7 @@ function translation(text) {
     return serverUrl + "?" + "text=" + text
 }
 
-function errorhandling(error) {
+function errorHandling(error) {
 	console.log("An error occured", error);
 	alert("Something went Wrong..! Please try after sometime.");
 }
@@ -23,7 +23,7 @@ function clickhandler() {
             var translatedText = json.contents.translated;
             OutputText.innerText = translatedText;
         })
-    .catch(errorhandling);
+    .catch(errorHandling);
 }
 
 translatebtn.addEventListener("click", clickHandler);
