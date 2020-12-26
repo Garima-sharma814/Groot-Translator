@@ -53,8 +53,9 @@ button{
     border-width: 0.2rem; 
     border-style: outset;
     font-weight: bold;
-    
+    font-size: 20px; 
 }
+
 .btn:hover{
     background-color: rgb(131, 209, 131);
     border-color: green;
