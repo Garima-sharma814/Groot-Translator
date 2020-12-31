@@ -78,7 +78,10 @@ h2{
 }
 .colour:hover{
     background-color: rgb(85, 165, 53);
+} 
 
+.button:hover{
+    background-color: white;
 }
 footer{
     margin: 0;
@@ -103,4 +106,19 @@ a:hover {
 
 footer div{
     font-weight: bold;
+}
+
+.link{
+    box-sizing: border-box;
+    /* border: solid; */
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    color: rgb(60, 187, 34);
+}
+
+.primary-link{
+    background-color: rgb(44, 117, 29);
+    border-radius: 0.5rem;
+    color: rgb(255, 255, 255);
+    font-family: 'Noto Serif', serif;
 }
