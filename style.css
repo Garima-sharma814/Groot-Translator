@@ -121,4 +121,7 @@ footer div{
     border-radius: 0.5rem;
     color: rgb(255, 255, 255);
     font-family: 'Noto Serif', serif;
+    border-color: black;
+    border-style: solid;
+    border-width: 0.1rem;
 }
